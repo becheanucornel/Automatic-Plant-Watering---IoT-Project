@@ -1,0 +1,832 @@
+[
+    {
+        "id": "af2e2e8e9fe86fbc",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4d06e7cf0a80549d",
+        "type": "group",
+        "z": "af2e2e8e9fe86fbc",
+        "name": "UI Dashboard",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#7fb7df",
+            "label": true,
+            "color": "#001f60"
+        },
+        "nodes": [
+            "3d40ecb0a1b22497",
+            "dashboard_ui_template"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "4310130b78430105",
+        "type": "group",
+        "z": "af2e2e8e9fe86fbc",
+        "name": "Date din senzor",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "668be3a283e6ca42",
+            "1e34d0a91e1a74ce",
+            "8d9769b72b13f3d0"
+        ],
+        "x": 34,
+        "y": 139,
+        "w": 532,
+        "h": 122
+    },
+    {
+        "id": "cc9226c0cbdb2e31",
+        "type": "group",
+        "z": "af2e2e8e9fe86fbc",
+        "name": "Controlul pompei",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "bd1ef5209a0afa01",
+            "bbbb878ad7423830",
+            "c50b798c113fac8f",
+            "28863e787e2c8146",
+            "952902f530ad0a86",
+            "0044d3701d15cc8c",
+            "62ee8806e736955e",
+            "2b6067fcb1c99ff4",
+            "1c5820b00fe5bd69",
+            "b814bd95cce083f5",
+            "0660fac3025f168f",
+            "9f74565d9ffe6b3a",
+            "fef89de24254ec60",
+            "917a93f3ff875492",
+            "e3bb052e716047f3",
+            "b5acf0479d7a6a54"
+        ],
+        "x": 34,
+        "y": 293,
+        "w": 1152,
+        "h": 388
+    },
+    {
+        "id": "0044d3701d15cc8c",
+        "type": "group",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Test Input",
+        "style": {
+            "label": true,
+            "color": "#3f3f3f"
+        },
+        "nodes": [
+            "e3a8d1a4bde42524",
+            "1afa8dacc124f719"
+        ],
+        "x": 694,
+        "y": 319,
+        "w": 172,
+        "h": 122
+    },
+    {
+        "id": "b97e52db74cfbe2f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#a87ac7",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#a87ac7",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#cbb0de",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#a87ac7",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7b1d571f5dc20f70",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "90b762a92aa88b64",
+        "type": "ui_group",
+        "name": "Temperatura",
+        "tab": "7b1d571f5dc20f70",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7827c37f810da213",
+        "type": "mqtt-broker",
+        "name": "PythonMQTT",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "PythonScript",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a2c09d7c6b701b37",
+        "type": "ui_tab",
+        "name": "Senzori",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "tab1",
+        "type": "ui_tab",
+        "name": "Senzori",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "group1",
+        "type": "ui_group",
+        "name": "Umiditate",
+        "tab": "tab1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "2462a49db2f461a5",
+        "type": "ui_group",
+        "name": "Umiditate",
+        "tab": "a2c09d7c6b701b37",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "668be3a283e6ca42",
+        "type": "ui_gauge",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "4310130b78430105",
+        "name": "Nivel Umiditate Sol",
+        "group": "group1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umiditate Sol",
+        "label": "Nivel",
+        "format": "{{value}}",
+        "min": 1,
+        "max": "1023",
+        "colors": [
+            "#8f0000",
+            "#03bd00",
+            "#8f0000"
+        ],
+        "seg1": "300",
+        "seg2": "750",
+        "diff": false,
+        "className": "",
+        "x": 450,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bd1ef5209a0afa01",
+        "type": "ui_switch",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Mod Manual/Automat",
+        "label": "Mod",
+        "tooltip": "",
+        "group": "group1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "manual",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "auto",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 180,
+        "y": 480,
+        "wires": [
+            [
+                "c50b798c113fac8f",
+                "b814bd95cce083f5"
+            ]
+        ]
+    },
+    {
+        "id": "bbbb878ad7423830",
+        "type": "ui_button",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Buton Manual Start",
+        "group": "group1",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Porneste Pompa",
+        "tooltip": "",
+        "color": "{{msg.buttonColor}}",
+        "bgcolor": "{{msg.buttonBgColor}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 810,
+        "y": 480,
+        "wires": [
+            [
+                "28863e787e2c8146"
+            ]
+        ]
+    },
+    {
+        "id": "c50b798c113fac8f",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Gestionează moduri manuale",
+        "func": "// Verifică dacă este în modul manual sau automat\nif (msg.payload === \"manual\") {\n    msg.buttonColor = \"black\"; // Activ pentru manual\n    msg.buttonBgColor = \"#ffcc00\";\n    msg.disabled = false; // Permite apăsarea butonului\n} else {\n    msg.buttonColor = \"gray\"; // Dezactiv pentru automat\n    msg.buttonBgColor = \"lightgray\";\n    msg.disabled = true; // Buton complet inactiv\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "bbbb878ad7423830",
+                "952902f530ad0a86"
+            ]
+        ]
+    },
+    {
+        "id": "3d40ecb0a1b22497",
+        "type": "ui_template",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "4d06e7cf0a80549d",
+        "group": "group1",
+        "name": "Tema Personalizată",
+        "order": 4,
+        "width": "6",
+        "height": "4",
+        "format": "<style>\n  body {\n    background-color: #121212;\n    font-family: 'Arial', sans-serif;\n  }\n\n  .md-toolbar-tools {\n    background-color: #6200ee !important;\n    color: white !important;\n  }\n\n  h1 {\n    text-align: center;\n    color: #ffffff;\n    font-size: 24px;\n  }\n\n  .logo {\n    display: block;\n    margin: 0 auto;\n    width: 80px;\n  }\n</style>\n<div>\n  <img src=\"https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190102094849/Minecraft-Grass-Block-600x600.jpg\" class=\"logo\" alt=\"Logo\">\n  <h1>Dashboard Monitorizare Sol</h1>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e34d0a91e1a74ce",
+        "type": "mqtt in",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "4310130b78430105",
+        "name": "",
+        "topic": "sensordata",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "7827c37f810da213",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 180,
+        "wires": [
+            [
+                "668be3a283e6ca42",
+                "8d9769b72b13f3d0"
+            ]
+        ]
+    },
+    {
+        "id": "28863e787e2c8146",
+        "type": "mqtt out",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "topic": "pumpcontrol",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7827c37f810da213",
+        "x": 1090,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e3a8d1a4bde42524",
+        "type": "inject",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "0044d3701d15cc8c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "str",
+        "x": 790,
+        "y": 360,
+        "wires": [
+            [
+                "28863e787e2c8146"
+            ]
+        ]
+    },
+    {
+        "id": "1afa8dacc124f719",
+        "type": "inject",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "0044d3701d15cc8c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "str",
+        "x": 790,
+        "y": 400,
+        "wires": [
+            [
+                "28863e787e2c8146"
+            ]
+        ]
+    },
+    {
+        "id": "dashboard_ui_template",
+        "type": "ui_template",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "4d06e7cf0a80549d",
+        "group": "your_group_id",
+        "name": "Background Image",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  body {\n    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cristinafaceaventura.ro%2F8-ani-in-thailanda%2F&psig=AOvVaw07uPL8SJD3xinNuNi8WFR9&ust=1737079212293000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjTnb6S-YoDFQAAAAAdAAAAABAE');\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n  }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 150,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "952902f530ad0a86",
+        "type": "ui_button",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Buton Manual Stop",
+        "group": "group1",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Opreste Pompa",
+        "tooltip": "",
+        "color": "{{msg.buttonColor}}",
+        "bgcolor": "{{msg.buttonBgColor}}",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 810,
+        "y": 520,
+        "wires": [
+            [
+                "28863e787e2c8146"
+            ]
+        ]
+    },
+    {
+        "id": "8d9769b72b13f3d0",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "4310130b78430105",
+        "name": "Gestiune date senzor",
+        "func": "var sensor_value = msg.payload;\n\nflow.set(\"SensorData\", sensor_value);",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62ee8806e736955e",
+        "type": "change",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SensorData",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 580,
+        "wires": [
+            [
+                "2b6067fcb1c99ff4"
+            ]
+        ]
+    },
+    {
+        "id": "2b6067fcb1c99ff4",
+        "type": "switch",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "msg.payload < 800",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 580,
+        "wires": [
+            [
+                "1c5820b00fe5bd69"
+            ]
+        ]
+    },
+    {
+        "id": "1c5820b00fe5bd69",
+        "type": "change",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stop",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b814bd95cce083f5",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Auto Status",
+        "func": "if(msg.payload == \"auto\")\n{\n    flow.set(\"AutoStatus\", true);\n}\nelse\n{\n    flow.set(\"AutoStatus\", false);\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0660fac3025f168f",
+        "type": "inject",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Auto Mode - Inject",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "4",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "str",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "b5acf0479d7a6a54"
+            ]
+        ]
+    },
+    {
+        "id": "9f74565d9ffe6b3a",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Checking Auto Status",
+        "func": "if(flow.get(\"AutoStatus\") === true)\n{\n    return msg;\n}\nelse\n{\n    msg.payload = \"false\";\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [
+                "fef89de24254ec60"
+            ]
+        ]
+    },
+    {
+        "id": "fef89de24254ec60",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "Checking Sensor",
+        "func": "if(flow.get(\"SensorData\") > 800)\n{\n    return msg;\n}\nelse\n{\n    msg.payload = false;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 640,
+        "wires": [
+            [
+                "28863e787e2c8146"
+            ]
+        ]
+    },
+    {
+        "id": "917a93f3ff875492",
+        "type": "inject",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "manual",
+        "payloadType": "str",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "bd1ef5209a0afa01"
+            ]
+        ]
+    },
+    {
+        "id": "e3bb052e716047f3",
+        "type": "trigger",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "2",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 480,
+        "y": 640,
+        "wires": [
+            [
+                "9f74565d9ffe6b3a"
+            ]
+        ]
+    },
+    {
+        "id": "b5acf0479d7a6a54",
+        "type": "function",
+        "z": "af2e2e8e9fe86fbc",
+        "g": "cc9226c0cbdb2e31",
+        "name": "function 1",
+        "func": "if (flow.get(\"stop\") === true)\n{\n    msg.payload = false;\n    return msg;\n}\nelse\n{\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 640,
+        "wires": [
+            [
+                "e3bb052e716047f3"
+            ]
+        ]
+    }
+]
