@@ -21,8 +21,10 @@ This project uses two communication protocols:
 
 ## Python Script
 
-<img src="photos/codpy1.png?raw=true" alt="PythonScript" width="300"/>
-<img src="photos/codpy2.png?raw=true" alt="PythonScript" width="300"/>
+<div style="display: flex; justify-content: space-around;">
+  <img src="photos/codpy1.png?raw=true" alt="PythonScript" width="300"/>
+  <img src="photos/codpy2.png?raw=true" alt="PythonScript" width="300"/>
+</div>
 
 The python script is the master of the entire system. We have multiple functions 
 implemented into it which we run into two different threads, for better performance.
