@@ -21,8 +21,8 @@ This project uses two communication protocols:
 
 ## Python Script
 
-![Alt text](photos/codpy1.png?raw=true "PythonScript")
-![Alt text](photos/codpy2.png?raw=true "PythonScript")
+<img src="photos/codpy1.png?raw=true" alt="PythonScript" width="300"/>
+<img src="photos/codpy2.png?raw=true" alt="PythonScript" width="300"/>
 
 The python script is the master of the entire system. We have multiple functions 
 implemented into it which we run into two different threads, for better performance.
@@ -34,7 +34,7 @@ pump.
 
 ## Arduino C Script
 
-![Alt text](photos/codardu.png?raw=true "PythonScript")
+<img src="photos/codardu.png?raw=true" alt="PythonScript" width="300"/>
 
 The C script running on the Arduino board is a slave script which sends data from the 
 humidity sensor to the python script on the Raspberry Pi and also turn on the relay which
@@ -42,7 +42,7 @@ turn the water pump on when a command is received from the Raspberry Pi.
 
 ## Node-RED
 
-![Alt text](photos/nodered.png?raw=true "PythonScript")
+<img src="photos/nodered.png?raw=true" alt="PythonScript" width="300"/>
 
 The Node-RED is running locally on the Raspberry Pi and handles the control of the system.
 Aside from the dashboard it has two control functions:
@@ -55,4 +55,3 @@ Raspberry Pi via a web browser, by accessing "https://{RaspberryPi-IP}:1880/ui".
 ## Demo 
 
 There is a demo video inside the demo folder, where you can see how the entire project operates.
-
