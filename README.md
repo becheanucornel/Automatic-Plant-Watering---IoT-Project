@@ -21,9 +21,9 @@ This project uses two communication protocols:
 
 ## Python Script
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="photos/codpy1.png?raw=true" alt="PythonScript" width="300"/>
-  <img src="photos/codpy2.png?raw=true" alt="PythonScript" width="300"/>
+<div style="display: flex; justify-content: space-between;">
+  <img src="photos/codpy1.png?raw=true" alt="PythonScript" style="width: 45%;"/>
+  <img src="photos/codpy2.png?raw=true" alt="PythonScript" style="width: 45%;"/>
 </div>
 
 The python script is the master of the entire system. We have multiple functions 
