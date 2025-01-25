@@ -42,6 +42,8 @@ Aside from the dashboard it has two control functions:
 - Manual Control: On the dashboard there are two buttons for turning on and off the water pump.
 - Automatic Control: We implemented a Control Flow which checks the humidity sensor data and
 based on this turns on or off the water pump to ensure the constant humidity of the plant's soil.
+Also the Node-RED Dashboard can be accessed from any device connected on the same network as the 
+Raspberry Pi via a web browser, by accessing "https://{RaspberryPi-IP}:1880/ui".
 
 ## Demo 
 
